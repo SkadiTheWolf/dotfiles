@@ -20,4 +20,4 @@ result-*
 .secrets/
 
 #p10k
-./modules/home/powerlevel10k/*
+powerlevel10k/
