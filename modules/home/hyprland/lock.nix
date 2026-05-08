@@ -1,9 +1,6 @@
-{ pkgs, ... }:
-
-let
+{pkgs, ...}: let
   wallpaper = ../../../assets/wallpapers/main.jpg;
-in
-{
+in {
   home.packages = with pkgs; [
     hyprlock
   ];
@@ -31,7 +28,7 @@ in
       size = 300, 55
       outline_thickness = 2
 
-      outer_color = rgba(255,255,255,0.2)
+      outer_color = rgba(ff0070ee)
       inner_color = rgba(0,0,0,0.4)
       font_color = rgba(255,255,255,1)
 

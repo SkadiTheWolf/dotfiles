@@ -43,6 +43,8 @@
         gaps_out = 5;
         border_size = 2;
         layout = "dwindle";
+        "col.active_border" = "rgba(ff00bcee) rgba(ff0070ee) 45deg";
+        "col.inactive_border" = "rgba(990065ee)";
       };
 
       decoration = {
