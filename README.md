@@ -29,16 +29,7 @@ Each machine has its own configuration while sharing common modules where approp
 ├── flake.lock
 ├── flake.nix
 ├── hosts
-│   ├── ankylosaurus
-│   │   ├── home-manager/
-│   │   ├── hypr/
-│   │   ├── mako/
-│   │   ├── nixos/
-│   │   └── waybar/
-│   ├── spinosaurus
-│   │   ├── home-manager/
-│   │   └── nixos/
-│   └── uniraptor
+│   └── UniPC
 │       ├── home-manager/
 │       └── nixos/
 ├── modules
@@ -100,9 +91,9 @@ User-level configuration managed via Home Manager.
 
 | Host          | Purpose                          |
 |---------------|----------------------------------|
-| ankylosaurus  | Gaming desktop                   |
-| spinosaurus   | University / development laptop  |
-| uniraptor     | University / development desktop |
+| UniPC         | University and Dev Computer      |
+|  |  |
+|  |  |
 
 
 ---
@@ -143,6 +134,7 @@ cd ~/.dotfiles/
 Usage:
 
 - Change hostname in ` configuration.nix` + `flake.nix`
+- Change usernames in multiple different places
 - Adjust hardware config per machine
 - Modify modules in `modules/`
 
