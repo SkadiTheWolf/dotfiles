@@ -15,11 +15,20 @@
       share = true;
     };
 
+    plugins = [
+      {
+        name = "powerlevel10k";
+        src = pkgs.zsh-powerlevel10k;
+        file = "~/.config/dotfiles/modules/home/powerlevel10k/powerlevel10k.zsh-theme";
+      }
+    ];
+
     shellAliases = {
       nosleep = "systemd-inhibit --what=idle:sleep --why='manual override' sleep";
     };
 
     initContent = ''
+      source ~/.config/dotfiles/modules/home/powerlevel10k/powerlevel10k.zsh-theme
             # ----- prompt -----
       autoload -U colors && colors
       autoload -Uz vcs_info
