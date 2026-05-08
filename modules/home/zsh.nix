@@ -28,6 +28,7 @@
     };
 
     initContent = ''
+      source ~/.p10k.zsh
       source ~/.config/dotfiles/modules/home/powerlevel10k/powerlevel10k.zsh-theme
             # ----- prompt -----
       autoload -U colors && colors
