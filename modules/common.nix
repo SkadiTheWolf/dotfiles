@@ -98,6 +98,7 @@
     spotify
     gparted
     hyprpolkitagent
+    atuin
   ];
 
   system.stateVersion = "25.11";

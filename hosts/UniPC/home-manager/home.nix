@@ -17,6 +17,7 @@
     ../../../modules/home/r.nix
     ../../../modules/home/nvim.nix
     ../../../modules/home/yazi/yazi.nix
+    ../../../modules/home/atuin.nix
   ];
 
   home.username = "skadi";
