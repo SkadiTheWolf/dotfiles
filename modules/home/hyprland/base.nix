@@ -12,7 +12,10 @@
   wayland.windowManager.hyprland = {
     enable = true;
 
+
+
     settings = {
+
       "$mod" = "SUPER";
 
       exec-once = [
@@ -63,7 +66,7 @@
 
         "$mod, E, exec, kitty -e yazi"
 
-        "$mod, V, exec, vivaldi"
+        "$mod, B, exec, vivaldi"
 
         "$mod, T, exec, scratchpad-toggle"
 
@@ -121,6 +124,10 @@
         "$mod, mouse:272, movewindow"
         "$mod, mouse:273, resizewindow"
       ];
+
+      cursor = {
+        no_hardware_cursors = true;
+      };
     };
   };
 }

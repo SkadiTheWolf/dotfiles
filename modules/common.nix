@@ -19,18 +19,18 @@
     settings = {
       default_session = {
         command = "Hyprland";
-        user = "mili";
+        user = "skadi";
       };
     };
   };
   services.desktopManager.plasma6.enable = true;
 
   services.xserver.xkb = {
-    layout = "de";
+    layout = "us";
     variant = "";
   };
 
-  console.keyMap = "de";
+  console.keyMap = "us";
 
   nixpkgs.config.allowUnfree = true;
   nix.settings.experimental-features = ["nix-command" "flakes"];
@@ -60,9 +60,9 @@
     pulse.enable = true;
   };
 
-  users.users.mili = {
+  users.users.skadi = {
     isNormalUser = true;
-    description = "mili";
+    description = "skadi";
     extraGroups = ["networkmanager" "wheel"];
     packages = with pkgs; [kdePackages.kate];
   };
@@ -96,6 +96,8 @@
     v4l-utils
     guvcview
     spotify
+    gparted
+    hyprpolkitagent
   ];
 
   system.stateVersion = "25.11";

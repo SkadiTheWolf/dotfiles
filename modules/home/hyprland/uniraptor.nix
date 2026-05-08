@@ -8,11 +8,12 @@
 
     settings = {
       monitor = [
-        ", preferred, auto, 1"
+        "HDMI-A-1,1680x1050, auto, 1"
+        "DP-1,1680x1050,auto,1"
       ];
 
       input = {
-        kb_layout = "de";
+        kb_layout = "us";
         follow_mouse = 1;
       };
       bindel = [

@@ -1,0 +1,32 @@
+{inputs, ...}: {
+  imports = [
+    inputs.nixvim.homeModules.nixvim
+    ../../../modules/home/hyprland/uniraptor.nix
+    ../../../modules/home/hyprland/base.nix
+    ../../../modules/home/waybar.nix
+    ../../../modules/home/hyprland/wallpaper.nix
+    ../../../modules/home/hyprland/lock.nix
+    ../../../modules/home/hyprland/idle.nix
+    ../../../modules/home/zsh.nix
+    ../../../modules/home/kitty.nix
+    ../../../modules/home/fonts.nix
+    ../../../modules/home/rofi.nix
+    ../../../modules/home/mako.nix
+    ../../../modules/home/gpg.nix
+    ../../../modules/home/dev.nix
+    ../../../modules/home/r.nix
+    ../../../modules/home/nvim.nix
+    ../../../modules/home/yazi/yazi.nix
+  ];
+
+  home.username = "skadi";
+  home.homeDirectory = "/home/skadi";
+
+  home.stateVersion = "25.11";
+
+  home.sessionVariables = {
+    TERMINAL = "kitty";
+  };
+
+  programs.home-manager.enable = true;
+}

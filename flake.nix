@@ -28,15 +28,13 @@
             home-manager.useUserPackages = true;
 	    home-manager.extraSpecialArgs = { inherit inputs hostName; };
 
-            home-manager.users.mili = import ./hosts/${hostName}/home-manager/home.nix;
+            home-manager.users.skadi = import ./hosts/${hostName}/home-manager/home.nix;
           }
         ];
       };
     in {
       nixosConfigurations = {
-        ankylosaurus = mkHost "ankylosaurus";
-        spinosaurus = mkHost "spinosaurus";
-	uniraptor = mkHost "uniraptor";
+        UniPC = mkHost "UniPC";
       };
     };
   }
