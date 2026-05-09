@@ -52,10 +52,6 @@
 
     nasm
 
-    #Go
-    go
-    gopls
-
     eclipses.eclipse-java
 
     texliveFull
