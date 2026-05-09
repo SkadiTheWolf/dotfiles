@@ -3,9 +3,9 @@
 
   bg: rgba(15, 15, 15, 0.92);
   bg-alt: rgba(255, 255, 255, 0.06);
-  fg: #e6e6e6;
-  fg-alt: #bdbdbd;
-  accent: #89b4fa;
+  fg: #ff00bc;
+  fg-alt: #ff00bc;
+  accent: #ff0070;
 
   background-color: transparent;
   text-color: @fg;
