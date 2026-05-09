@@ -105,6 +105,7 @@
     lazygit
     bat
     inputs.unstable.legacyPackages.x86_64-linux.nix-sweep
+    fastfetch
   ];
 
   system.stateVersion = "25.11";
