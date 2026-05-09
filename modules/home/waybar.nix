@@ -135,7 +135,9 @@
        #cpu,
        #memory,
        #battery,
-       #tray {
+       #tray,
+       #taskbar,
+       #power {
          margin: 6px 6px;
          padding: 0 16px;
          border-radius: 10px;
