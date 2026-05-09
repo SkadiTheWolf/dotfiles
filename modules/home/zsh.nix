@@ -25,6 +25,12 @@
 
     shellAliases = {
       nosleep = "systemd-inhibit --what=idle:sleep --why='manual override' sleep";
+      waybar-reload = "pkill waybar && hyprctl dispatch exec waybar";
+      waybar-start = "hyprctl dispatch exec waybar";
+      pythonP = "cd /mnt/Dokumente/Python";
+      rustP = "cd /mnt/Dokumente/Rust";
+      goP = "cd /mnt/Dokumente/Go";
+      master = "nvim /mnt/Master.txt";
     };
 
     initContent = ''
