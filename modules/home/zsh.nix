@@ -36,6 +36,7 @@
     initContent = ''
       source ~/.p10k.zsh
       source ~/.config/dotfiles/modules/home/powerlevel10k/powerlevel10k.zsh-theme
+      source ~/.config/dotfiles/scripts/commands.sh
             # ----- prompt -----
       autoload -U colors && colors
       autoload -Uz vcs_info
