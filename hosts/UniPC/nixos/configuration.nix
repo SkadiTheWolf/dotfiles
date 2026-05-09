@@ -47,6 +47,21 @@
     wl-clipboard
     grim
     slurp
+
+    #dev
+
+    nasm
+
+    #Go
+    go
+    gopls
+
+    eclipses.eclipse-java
+
+    texliveFull
+    texstudio
+
+    androidStudioPackages.dev
   ];
 
   system.stateVersion = "25.11"; # Did you read the comment?

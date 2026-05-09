@@ -99,6 +99,10 @@
     gparted
     hyprpolkitagent
     atuin
+    easyeffects
+    cliphist
+    lazygit
+    bat
   ];
 
   system.stateVersion = "25.11";
