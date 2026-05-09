@@ -85,6 +85,8 @@
             if command -v fzf >/dev/null 2>&1; then
               source <(${pkgs.fzf}/bin/fzf --zsh)
             fi
+
+            eval "$(direnv hook zsh)"
     '';
   };
 
