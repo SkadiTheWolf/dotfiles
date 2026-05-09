@@ -1,6 +1,7 @@
 {
   config,
   pkgs,
+  inputs,
   ...
 }: {
   boot.loader.systemd-boot.enable = true;
@@ -103,6 +104,7 @@
     cliphist
     lazygit
     bat
+    inputs.unstable.legacyPackages.x86_64-linux.nix-sweep
   ];
 
   system.stateVersion = "25.11";
