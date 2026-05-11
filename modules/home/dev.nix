@@ -61,6 +61,7 @@
     anki
 
     nasm
+    sasm
   ];
 
   programs.direnv.enable = true;
