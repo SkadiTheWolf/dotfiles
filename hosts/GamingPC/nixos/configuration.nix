@@ -57,5 +57,14 @@
     slurp
   ];
 
+   # Config for Steam
+    programs.steam = {
+      enable = true;
+    };
+    services.resolved.enable = true;
+
+    # For Lutris
+    hardware.graphics.enable32Bit = true;
+
   system.stateVersion = "25.11"; # Did you read the comment?
 }
