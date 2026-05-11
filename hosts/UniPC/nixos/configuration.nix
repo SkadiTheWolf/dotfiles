@@ -27,7 +27,7 @@
     xwayland.enable = true;
   };
 
-    services.xserver.xkb = {
+  services.xserver.xkb = {
     layout = "us";
     variant = "";
   };
@@ -56,8 +56,6 @@
     slurp
 
     #dev
-
-    nasm
 
     eclipses.eclipse-java
 
