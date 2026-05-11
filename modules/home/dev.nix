@@ -59,6 +59,8 @@
     brightnessctl
 
     anki
+
+    nasm
   ];
 
   programs.direnv.enable = true;
