@@ -77,6 +77,10 @@
     font-awesome
   ];
 
+  # Enable the OpenSSH daemon.
+  services.openssh.enable = true;
+
+
   environment.systemPackages = with pkgs; [
     bitwarden-desktop
     signal-desktop

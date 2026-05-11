@@ -43,6 +43,7 @@
   in {
     nixosConfigurations = {
       UniPC = mkHost "UniPC";
+      GamingPC = mkHost "GamingPC";
     };
   };
 }
