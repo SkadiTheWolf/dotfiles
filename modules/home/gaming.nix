@@ -7,7 +7,7 @@
     services.resolved.enable = true;
 
   # For Lutris
-    hardware.graphics.enable32Bit = true;
+  # hardware.graphics.enable32Bit = true;
 
 
   home.packages = with pkgs; [
