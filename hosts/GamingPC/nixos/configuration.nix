@@ -8,7 +8,7 @@
     ../../../modules/common.nix
   ];
 
-  networking.hostName = "UniPC"; # Define your hostname.
+  networking.hostName = "GamingPC"; # Define your hostname.
 
   i18n.extraLocaleSettings = {
     LC_ADDRESS = "en_US.UTF-8";
@@ -27,12 +27,13 @@
     xwayland.enable = true;
   };
 
+    # Configure keymap in X11
     services.xserver.xkb = {
-    layout = "us";
+    layout = "de";
     variant = "";
   };
 
-  console.keyMap = "us";
+  console.keyMap = "de";
 
   programs.thunderbird.enable = true;
 
@@ -54,19 +55,6 @@
     wl-clipboard
     grim
     slurp
-
-    #dev
-
-    nasm
-
-    eclipses.eclipse-java
-
-    texliveFull
-    texstudio
-
-    androidStudioPackages.dev
-
-    direnv
   ];
 
   system.stateVersion = "25.11"; # Did you read the comment?

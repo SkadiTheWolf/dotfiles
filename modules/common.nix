@@ -26,13 +26,6 @@
   };
   services.desktopManager.plasma6.enable = true;
 
-  services.xserver.xkb = {
-    layout = "us";
-    variant = "";
-  };
-
-  console.keyMap = "us";
-
   nixpkgs.config.allowUnfree = true;
   nix.settings.experimental-features = ["nix-command" "flakes"];
 
