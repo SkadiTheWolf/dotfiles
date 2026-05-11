@@ -7,6 +7,6 @@
     goverlay
     mumble
     protonup-qt
-    vulcan-tools
+    vulkan-tools
   ];
 }
