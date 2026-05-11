@@ -61,6 +61,7 @@
     anki
 
     nasm
+    ld
   ];
 
   programs.direnv.enable = true;
