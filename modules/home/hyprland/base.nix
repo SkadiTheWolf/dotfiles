@@ -22,6 +22,7 @@
         "hyprpaper"
         "hypridle"
         "gnome-keyring-daemon --start --components=secrets"
+        "wl-paste --watch cliphist store"
       ];
 
       misc = {
