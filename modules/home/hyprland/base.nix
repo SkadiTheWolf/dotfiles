@@ -74,6 +74,8 @@
         "$mod, F, fullscreen"
         "$mod SHIFT, V, togglefloating"
 
+        "$mod, H, exec, cliphist list | rofi -dmenu | cliphist decode | wl-copy"
+
         ",Print, exec, grim -g \"$(slurp)\" - | wl-copy"
         "SHIFT, Print, exec, sh -c 'mkdir -p ~/Pictures/Screenshots && grim -g \"$(slurp)\" ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png'"
         ",Insert, exec, sh -c 'mkdir -p ~/Pictures/Screenshots && grim ~/Pictures/Screenshots/$(date +%Y-%m-%d_%H-%M-%S).png'"
