@@ -9,11 +9,6 @@
     home-manager.url = "github:nix-community/home-manager/release-25.11";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
 
-    waybar-module-music = {
-      url = "github:Andeskjerf/waybar-module-music";
-      inputs.unstable.follows = "unstable";
-    };
-
     nixvim.url = "github:nix-community/nixvim/nixos-25.11";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
   };
@@ -24,7 +19,6 @@
     unstable,
     home-manager,
     nixvim,
-    waybar-module-music,
     ...
   }: let
     system = "x86_64-linux";
