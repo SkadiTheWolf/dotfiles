@@ -89,23 +89,25 @@ echo "start_botty [[ -s | --start ] | [ -d | --debug ]]"
 
 start_botty()
 {
-	local path="/mnt//Dokumente/Python/InfinitumBotty"
+	local path="/mnt/Dokumente/Python/InfinitumBotty"
 	if [ "$#" -gt "0" ]; then
 		while [ "$1" != "" ]; do
 			case $1 in
 				-s | --start ) 		if [ pwd != "$path" ]; then
-										cd $path
-									fi
-									./nix-bot-run.sh -r
-									return
-									;;
+        										cd $path
+				        					fi
+                          detect_shell
+								        	./nix-bot-run.sh -r
+									        return
+									        ;;
 
 				-d | --debug ) 		if [ pwd != "$path" ]; then
-										cd $path
-									fi
-									./nix-bot-run.sh -d
-									return
-									;;
+										        cd $path
+									        fi
+                          detect_shell
+                          ./nix-bot-run.sh -d
+									        return
+									        ;;
 
 				* )					usage_botty
 									return
