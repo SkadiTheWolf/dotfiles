@@ -44,10 +44,7 @@
       };
   in {
     nixosConfigurations = {
-      UniPC = nixpkgs.lib.nixosSystem {
-        mkHost = "UniPC";
-        modules = [
-        ];
+      UniPC = mkHost "UniPC";
         GamingPC = mkHost "GamingPC";
       };
     };
