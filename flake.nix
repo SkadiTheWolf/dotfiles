@@ -53,7 +53,9 @@
       UniPC = {
         mkHost = "UniPC";
         modules = [
+          ({...}: {
           unstable.overlays = [ waybar-module-music.overlays.default ];
+          })
         ];
       GamingPC = mkHost "GamingPC";
 
