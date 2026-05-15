@@ -91,6 +91,9 @@
         "$mod, up, movefocus, u"
         "$mod, down, movefocus, d"
 
+        "$mod SHIFT, left, workspace, r-1"
+        "$mod SHIFT, right, workspace, r+1"
+
         "$mod SHIFT, h, movewindow, l"
         "$mod SHIFT, l, movewindow, r"
         "$mod SHIFT, k, movewindow, u"
