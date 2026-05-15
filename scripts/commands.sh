@@ -89,7 +89,7 @@ echo "start_botty [[ -s | --start ] | [ -d | --debug ]]"
 
 start_botty()
 {
-	local path="/run/media/skadi/Volume/Dokumente/Python/InfinitumBotty"
+	local path="/mnt//Dokumente/Python/InfinitumBotty"
 	if [ "$#" -gt "0" ]; then
 		while [ "$1" != "" ]; do
 			case $1 in
