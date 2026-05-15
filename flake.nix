@@ -3,9 +3,16 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
+    
     unstable.url = "nixpkgs/nixos-unstable";
+    
     home-manager.url = "github:nix-community/home-manager/release-25.11";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
+    
+    waybar-module-music = {
+      url = "github:Andeskjerf/waybar-module-music";
+      inputs.unstable.follows = "nixpkgs";
+    };
 
     nixvim.url = "github:nix-community/nixvim/nixos-25.11";
     nixvim.inputs.nixpkgs.follows = "nixpkgs";
@@ -17,6 +24,7 @@
     unstable,
     home-manager,
     nixvim,
+    waybar-module-music,
     ...
   }: let
     system = "x86_64-linux";
@@ -42,8 +50,13 @@
       };
   in {
     nixosConfigurations = {
-      UniPC = mkHost "UniPC";
+      UniPC = {
+        mkHost "UniPC";
+        modules = [
+          unstable.overlays = [ waybar-module-music.overlays.default ];
+        ];
       GamingPC = mkHost "GamingPC";
+
     };
   };
 }
