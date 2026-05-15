@@ -50,7 +50,7 @@
       };
   in {
     nixosConfigurations = {
-      UniPC = nixpkgs.lib.nixosSystem {
+      UniPC = unstable.lib.nixosSystem {
         mkHost = "UniPC";
         modules = [
           ({...}: {
