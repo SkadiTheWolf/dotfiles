@@ -50,8 +50,8 @@
       };
   in {
     nixosConfigurations = {
-      UniPC = {
-        mkHost = "UniPC";
+      UniPC = mkHost "UniPC";
+      UniPC = nixpkgs.lib.nixosSystem {
         modules = [
           ({...}: {
             unstable.overlays = [waybar-module-music.overlays.default];
