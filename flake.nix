@@ -37,6 +37,10 @@
         modules = [
           ./hosts/${hostName}/nixos/configuration.nix
 
+          ({...}: {
+            nixpkgs.overlays = [waybar-module-music.overlays.default];
+          })
+
           home-manager.nixosModules.home-manager
 
           {
@@ -53,9 +57,6 @@
       UniPC = nixpkgs.lib.nixosSystem {
         mkHost = "UniPC";
         modules = [
-          ({...}: {
-            nixpkgs.overlays = [waybar-module-music.overlays.default];
-          })
         ];
         GamingPC = mkHost "GamingPC";
       };
