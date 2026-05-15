@@ -11,7 +11,7 @@
 
     waybar-module-music = {
       url = "github:Andeskjerf/waybar-module-music";
-      inputs.unstable.follows = "nixpkgs";
+      inputs.unstable.follows = "unstable";
     };
 
     nixvim.url = "github:nix-community/nixvim/nixos-25.11";
