@@ -3,12 +3,12 @@
 
   inputs = {
     nixpkgs.url = "github:NixOS/nixpkgs/nixos-25.11";
-    
+
     unstable.url = "nixpkgs/nixos-unstable";
-    
+
     home-manager.url = "github:nix-community/home-manager/release-25.11";
     home-manager.inputs.nixpkgs.follows = "nixpkgs";
-    
+
     waybar-module-music = {
       url = "github:Andeskjerf/waybar-module-music";
       inputs.unstable.follows = "nixpkgs";
@@ -54,11 +54,11 @@
         mkHost = "UniPC";
         modules = [
           ({...}: {
-          unstable.overlays = [ waybar-module-music.overlays.default ];
+            unstable.overlays = [waybar-module-music.overlays.default];
           })
         ];
-      GamingPC = mkHost "GamingPC";
-
+        GamingPC = mkHost "GamingPC";
+      };
     };
   };
 }
