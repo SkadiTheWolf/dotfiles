@@ -5,7 +5,7 @@
     settings = {
       background-color = "#0f0f0fdd";
       text-color = "#e6e6e6";
-      border-color = "#89b4fa";
+      border-color = "#ff00bc";
 
       border-size = 2;
       border-radius = 12;
