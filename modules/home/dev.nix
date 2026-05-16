@@ -63,7 +63,6 @@
     nasm
 
     rustup
-    cargo
   ];
 
   programs.direnv.enable = true;
