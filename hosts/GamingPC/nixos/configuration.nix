@@ -44,6 +44,7 @@
   environment.systemPackages = with pkgs; [
     kitty
     rofi
+    yazi
     waybar
     hyprpaper
     mako
