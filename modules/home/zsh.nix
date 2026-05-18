@@ -31,7 +31,7 @@
       rustP = "cd /mnt/Dokumente/Rust";
       goP = "cd /mnt/Dokumente/Go";
       master = "nvim /mnt/Master.txt";
-      mars = "java -jar ~/Documents/ASM/Mars4_5.jar"
+      mars = "java -jar ~/Documents/ASM/Mars4_5.jar";
     };
 
     initContent = ''
