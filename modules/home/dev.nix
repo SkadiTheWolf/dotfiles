@@ -67,6 +67,7 @@
     androidStudioPackages.dev
 
     eclipses.eclipse-java
+    openjdk
   ];
 
   programs.direnv.enable = true;
