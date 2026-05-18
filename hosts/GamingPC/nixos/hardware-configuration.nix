@@ -17,7 +17,7 @@
     { device = "/dev/disk/by-uuid/270f13a2-2a7a-4937-9142-97aa34c2cc98";
       fsType = "ext4";
     };
-  fileSystems."/run/media/skadi/Volume" =
+  fileSystems."/mnt/" =
     { device = "/dev/disk/by-uuid/2b4830a1-10e5-435a-9e6f-f7ed7e2236f6";
       fsType = "ext4";
     };
