@@ -1,7 +1,7 @@
 {inputs, ...}: {
   imports = [
     inputs.nixvim.homeModules.nixvim
-    ../../../modules/home/hyprland/uniraptor.nix
+    ../../../modules/home/hyprland/gamingpc.nix
     ../../../modules/home/hyprland/base.nix
     ../../../modules/home/waybar.nix
     ../../../modules/home/hyprland/wallpaper.nix
@@ -16,7 +16,6 @@
     ../../../modules/home/nvim.nix
     ../../../modules/home/yazi/yazi.nix
     ../../../modules/home/atuin.nix
-
   ];
 
   home.username = "skadi";
