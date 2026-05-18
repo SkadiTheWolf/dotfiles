@@ -63,6 +63,10 @@
     nasm
 
     rustup
+
+    androidStudioPackages.dev
+
+    eclipses.eclipse-java
   ];
 
   programs.direnv.enable = true;
