@@ -104,6 +104,7 @@
     bat
     inputs.unstable.legacyPackages.x86_64-linux.nix-sweep
     fastfetch
+    zotero
   ];
 
   system.stateVersion = "25.11";
