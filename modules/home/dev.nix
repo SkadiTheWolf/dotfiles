@@ -68,6 +68,8 @@
 
     eclipses.eclipse-java
     openjdk
+
+    gdb
   ];
 
   programs.direnv.enable = true;
