@@ -10,6 +10,7 @@
       monitor = [
         "HDMI-A-1,1680x1050, auto, 1"
         "DP-1,1680x1050,auto,1"
+        "DVI-D-1, 1920x1080, auto,1"
       ];
 
       input = {
