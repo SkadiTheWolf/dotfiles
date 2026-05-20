@@ -8,9 +8,9 @@
 
     settings = {
       monitor = [
-        "HDMI-A-1,1680x1050, auto, 1"
-        "DP-1,1680x1050,auto,1"
-        "DVI-D-1, 1920x1080, auto,1"
+        "HDMI-A-1,1680x1050, 0x0, 1"
+        "DP-1,1680x1050,1680x0,1"
+        "DVI-D-1, 1920x1080, 3360x0,1"
       ];
 
       input = {
