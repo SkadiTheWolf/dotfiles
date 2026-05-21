@@ -68,6 +68,19 @@
             enable = true;
             package = null;
           };
+          clangd = {
+            config = {
+              cmd = [
+                "clangd"
+                "--background-index"
+              ];
+              filetypes = [
+                "c"
+                "cpp"
+              ];
+            };
+            enable = true;
+          };
         };
       };
 
