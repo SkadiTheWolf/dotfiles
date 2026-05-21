@@ -70,6 +70,8 @@
     openjdk
 
     gdb
+
+    codeblocks
   ];
 
   programs.direnv.enable = true;
