@@ -72,6 +72,9 @@
     gdb
 
     codeblocks
+
+    vscode
+    vscode-extensions.ecmel.vscode-html-css
   ];
 
   programs.direnv.enable = true;
