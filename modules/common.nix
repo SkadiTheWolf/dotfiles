@@ -105,6 +105,7 @@
     inputs.unstable.legacyPackages.x86_64-linux.nix-sweep
     fastfetch
     zotero
+    pavucontrol
   ];
 
   system.stateVersion = "25.11";
