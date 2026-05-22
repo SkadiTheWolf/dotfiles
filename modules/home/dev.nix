@@ -72,6 +72,7 @@
     gdb
 
     codeblocks
+    glib
 
     vscode
     vscode-extensions.ecmel.vscode-html-css
