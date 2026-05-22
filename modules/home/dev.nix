@@ -73,6 +73,7 @@
 
     codeblocks
     glib
+    gtk3
 
     vscode
     vscode-extensions.ecmel.vscode-html-css
