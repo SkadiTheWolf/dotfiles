@@ -73,7 +73,7 @@
 
     codeblocks
     glib
-    gtk3
+    gtk4.dev
 
     vscode
     vscode-extensions.ecmel.vscode-html-css
