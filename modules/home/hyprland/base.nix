@@ -24,6 +24,11 @@
         "gnome-keyring-daemon --start --components=secrets"
         "wl-paste --watch cliphist store"
       ];
+      env = [
+        "QT_QPA_PLATFORMTHEME,kde"
+        "QT_QPA_PLATFORM,wayland"
+        "XDG_MENU_PREFIX,plasma-"
+      ];
 
       misc = {
         disable_hyprland_logo = true;
