@@ -106,6 +106,7 @@
     fastfetch
     zotero
     pavucontrol
+    tree
   ];
 
   system.stateVersion = "25.11";
