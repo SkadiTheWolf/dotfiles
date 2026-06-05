@@ -64,6 +64,7 @@
   services.udev = {
     extraRules = ''
       SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
+      SUBSYSTEM=="usb", ATTRS{idVendor}=="0x0483", ATTRS{idProduct}=="0xf123", MODE="0666"
     '';
   };
 
