@@ -79,9 +79,6 @@
     vscode-extensions.ecmel.vscode-html-css
   ];
 
-  programs.wireshark.enable = true;
-  programs.wireshark.usbmon.enable = true;
-
   programs.direnv.enable = true;
   programs.direnv.nix-direnv.enable = true;
 }
