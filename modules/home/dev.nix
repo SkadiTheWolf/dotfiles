@@ -77,6 +77,8 @@
 
     vscode
     vscode-extensions.ecmel.vscode-html-css
+
+    usbutils
   ];
 
   programs.direnv.enable = true;
