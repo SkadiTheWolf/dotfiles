@@ -58,6 +58,13 @@
 
   programs.wireshark.enable = true;
   programs.wireshark.usbmon.enable = true;
+  programs.wireshark.package = pkgs.wireshark;
+
+  services.udev = {
+    extraRules = ''
+      SUBSYSTEM=="usbmon", GROUP="wireshark", MODE="0640"
+    '';
+  };
 
   system.stateVersion = "25.11"; # Did you read the comment?
 }
