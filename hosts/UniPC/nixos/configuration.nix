@@ -56,6 +56,9 @@
     slurp
   ];
 
+  virtualisation.virtualbox.host.enable = true;
+  users.extraGroups.vboxusers.members = ["skadi"];
+
   programs.wireshark.enable = true;
   programs.wireshark.usbmon.enable = true;
   programs.wireshark.package = pkgs.wireshark;
