@@ -83,7 +83,7 @@
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
-    #bitwarden-desktop
+    bitwarden-desktop
     signal-desktop
     libreoffice-qt
     discord
