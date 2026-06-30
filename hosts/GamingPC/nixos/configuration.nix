@@ -27,8 +27,8 @@
     xwayland.enable = true;
   };
 
-    # Configure keymap in X11
-    services.xserver.xkb = {
+  # Configure keymap in X11
+  services.xserver.xkb = {
     layout = "de";
     variant = "";
   };
@@ -58,14 +58,14 @@
     slurp
   ];
 
-   # Config for Steam
-    programs.steam = {
-      enable = true;
-    };
-    services.resolved.enable = true;
+  # Config for Steam
+  programs.steam = {
+    enable = true;
+  };
+  services.resolved.enable = true;
 
-    # For Lutris
-    hardware.graphics.enable32Bit = true;
+  # For Lutris
+  hardware.graphics.enable32Bit = true;
 
-  system.stateVersion = "25.11"; # Did you read the comment?
+  system.stateVersion = "26.05"; # Did you read the comment?
 }
