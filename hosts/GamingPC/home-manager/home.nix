@@ -21,7 +21,7 @@
   home.username = "skadi";
   home.homeDirectory = "/home/skadi";
 
-  home.stateVersion = "26.05";
+  home.stateVersion = "25.11";
 
   home.sessionVariables = {
     TERMINAL = "kitty";
