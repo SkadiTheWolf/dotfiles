@@ -81,6 +81,8 @@
     usbutils
 
     meld
+
+    sqlitebrowser
   ];
 
   programs.direnv.enable = true;
