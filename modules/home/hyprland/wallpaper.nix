@@ -6,6 +6,7 @@ in {
   ];
 
   xdg.configFile."hypr/hyprpaper.conf".text = ''
+    source = ~/.config/dotfiles/assets/wallpapers/main.jpg
 
     monitor = DP-1
     path = ~/.config/dotfiles/assets/wallpapers/main.jpg
