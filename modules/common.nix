@@ -83,7 +83,7 @@
   services.flatpak.enable = true;
 
   environment.systemPackages = with pkgs; [
-    bitwarden-desktop
+    # bitwarden-desktop
     signal-desktop
     libreoffice-qt
     discord
@@ -109,5 +109,5 @@
     tree
   ];
 
-  system.stateVersion = "25.11";
+  system.stateVersion = "26.05";
 }
