@@ -7,7 +7,7 @@ in {
 
   xdg.configFile."hypr/hyprpaper.conf".text = ''
 
-    monitor =
+    monitor = DP-1
     path = ~/.config/dotfiles/assets/wallpapers/main.jpg
     fit_mode = cover
 
