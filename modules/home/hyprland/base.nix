@@ -36,8 +36,8 @@
       };
 
       windowrule = [
-        "float,class:^(pavucontrol)$"
-        "float,class:^(nm-connection-editor)$"
+        #"float,class:^(pavucontrol)$"
+        #"float,class:^(nm-connection-editor)$"
 
         # "workspace special:scratchpad silent,class:^(scratchpad)$"
         #"float,class:^(scratchpad)$"
