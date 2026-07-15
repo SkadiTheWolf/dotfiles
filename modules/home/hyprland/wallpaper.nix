@@ -25,5 +25,15 @@ in {
         fit_mode = cover
     }
 
+    wallpaper {
+      monitor = DP-2
+      path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+     fit_mode = cover
+
+    wallpaper {
+      monitor =
+      path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+      fit_mode = cover
+
   '';
 }
