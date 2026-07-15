@@ -35,7 +35,7 @@
         disable_hyprland_logo = true;
       };
 
-      windowrulev2 = [
+      windowrule = [
         "float,class:^(pavucontrol)$"
         "float,class:^(nm-connection-editor)$"
 
@@ -58,10 +58,10 @@
         rounding = 8;
       };
 
-      dwindle = {
-        pseudotile = true;
-        preserve_split = true;
-      };
+      #dwindle = {
+      #  pseudotile = true;
+      #  preserve_split = true;
+      #};
 
       bind = [
         "$mod SHIFT, x, exec, hyprctl dispatch exit"
