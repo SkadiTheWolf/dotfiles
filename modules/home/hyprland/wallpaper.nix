@@ -11,5 +11,14 @@ in {
     path = ~/.config/dotfiles/assets/wallpapers/main.jpg
     fit_mode = cover
 
+    monitor = HDMI-A-1
+    path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+    fit_mode = cover
+
+    monitor = DVI-D-1
+    path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+    fit_mode = cover
+
+
   '';
 }
