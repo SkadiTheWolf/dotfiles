@@ -107,6 +107,7 @@
     zotero
     pavucontrol
     tree
+    btop
   ];
 
   system.stateVersion = "26.05";
