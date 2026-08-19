@@ -108,6 +108,7 @@
     pavucontrol
     tree
     btop
+    librewolf
   ];
 
   system.stateVersion = "26.05";
