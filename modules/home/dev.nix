@@ -83,9 +83,6 @@
     meld
 
     sqlitebrowser
-
-    texlive.withPackages
-    (ps: [ps.plantuml])
   ];
 
   programs.direnv.enable = true;
