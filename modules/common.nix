@@ -14,13 +14,13 @@
   i18n.defaultLocale = "en_US.UTF-8";
 
   services.xserver.enable = true;
-  services.displayManager.sddm.enable = true;
+  services.displayManager.sddm.enable = false;
   services.greetd = {
-    enable = false;
+    enable = true;
     settings = {
       default_session = {
-        command = "Hyprland";
-        user = "skadi";
+        command = "${pkgs.tuigreet}/bin/tuigreet --time --remember --cmd start-hyprland";
+        user = "greeter";
       };
     };
   };
