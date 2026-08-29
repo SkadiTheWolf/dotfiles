@@ -29,7 +29,8 @@
         "QT_QPA_PLATFORMTHEME,kde"
         "QT_QPA_PLATFORM,wayland"
         "XDG_MENU_PREFIX,plasma-"
-        "HYPRCURSOR_THEME, Breeze"
+        "HYPRCURSOR_THEME, Nordzy-hyprcursors"
+        "HYPRCURSOR_SIZE, 24"
       ];
 
       misc = {
