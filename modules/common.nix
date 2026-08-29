@@ -99,6 +99,7 @@
     spotify
     gparted
     hyprpolkitagent
+    hyprcursor
     atuin
     easyeffects
     cliphist
