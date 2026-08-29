@@ -24,7 +24,6 @@
       };
     };
   };
-  services.desktopManager.plasma6.enable = true;
 
   nixpkgs.config.allowUnfree = true;
   nix.settings.experimental-features = ["nix-command" "flakes"];
@@ -81,6 +80,9 @@
   services.openssh.enable = true;
 
   services.flatpak.enable = true;
+
+  programs.thunar.enable = true;
+  programs.xfconf.enable = true;
 
   environment.systemPackages = with pkgs; [
     # bitwarden-desktop
