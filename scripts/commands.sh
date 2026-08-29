@@ -121,6 +121,9 @@ start_botty()
 
 }
 
-
-
+yarr()
+{
+    cd ~/Documents/Yarr
+    ./yarr &
+}
 

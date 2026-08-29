@@ -24,6 +24,7 @@
         "hypridle"
         "gnome-keyring-daemon --start --components=secrets"
         "wl-paste --watch cliphist store"
+        "yarr"
       ];
       env = [
         "QT_QPA_PLATFORMTHEME,kde"
