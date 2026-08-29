@@ -111,6 +111,7 @@
     tree
     btop
     librewolf
+    yarr
   ];
 
   system.stateVersion = "26.05";
