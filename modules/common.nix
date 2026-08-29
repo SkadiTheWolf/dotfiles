@@ -111,8 +111,9 @@
     tree
     btop
     librewolf
-    yarr
   ];
+
+  services.yarr.enable = true;
 
   system.stateVersion = "26.05";
 }
