@@ -111,7 +111,7 @@
     tree
     btop
     librewolf
-    ark
+    kdePackages.ark
   ];
 
   system.stateVersion = "26.05";
