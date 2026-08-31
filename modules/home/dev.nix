@@ -83,6 +83,8 @@
     meld
 
     sqlitebrowser
+
+    nethack
   ];
 
   programs.direnv.enable = true;
