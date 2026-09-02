@@ -74,7 +74,7 @@
 
         "$mod, E, exec, kitty -e yazi"
 
-        "$mod, B, exec, vivaldi"
+        "$mod, B, exec, librewolf"
 
         #"$mod, T, exec, scratchpad-toggle"
 
