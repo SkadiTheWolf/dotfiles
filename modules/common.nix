@@ -113,6 +113,7 @@
     btop
     librewolf
     kdePackages.ark
+    kdePackages.okular
   ];
 
   system.stateVersion = "26.05";

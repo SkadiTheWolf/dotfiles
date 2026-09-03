@@ -29,7 +29,7 @@ reveal = [
 ]
 
 okular = [
-  { run = 'okular "$@"', orphan = true, desc = "Okular", for = "linux" }
+  { run = 'okular "$@"', orphan = true, desc = "okular", for = "linux" }
 ]
 
 play = [
@@ -42,7 +42,7 @@ image = [
 ]
 
 browser = [
-  { run = 'firefox "$1"', orphan = true, desc = "Firefox", for = "linux" }
+  { run = 'librewolf "$1"', orphan = true, desc = "librewolf", for = "linux" }
 ]
 
 archive = [
