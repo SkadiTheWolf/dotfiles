@@ -11,18 +11,18 @@
     }
 
     listener {
-      timeout = 600
+      timeout = 3600
       on-timeout = hyprlock
     }
 
     listener {
-      timeout = 1200
+      timeout = 9000
       on-timeout = hyprctl dispatch dpms off
       on-resume = hyprctl dispatch dpms on
     }
 
     listener {
-      timeout = 1800
+      timeout = 9600
       on-timeout = systemctl suspend
     }
   '';
