@@ -44,7 +44,7 @@
           {
             home-manager.useGlobalPkgs = true;
             home-manager.useUserPackages = true;
-            home-manager.extraSpecialArgs = {inherit inputs hostName;};
+            home-manager.extraSpecialArgs = {inherit inputs hostName mars-mips;};
 
             home-manager.users.skadi = import ./hosts/${hostName}/home-manager/home.nix;
           }
