@@ -25,9 +25,9 @@
     pkgs = import nixpkgs {
       inherit system;
       config.allowUnfree = true;
-    }
-    
-     mars-mips = pkgs.callPackage ./pkgs/mars-mips.nix {
+    };
+
+    mars-mips = pkgs.callPackage ./pkgs/mars-mips.nix {
       jdk8 = pkgs.jdk8;
     };
 
