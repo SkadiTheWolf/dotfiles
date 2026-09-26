@@ -22,10 +22,19 @@
   }: let
     system = "x86_64-linux";
 
+    pkgs = import nixpkgs {
+      inherit system;
+      config.allowUnfree = true;
+    }
+    
+     mars-mips = pkgs.callPackage ./pkgs/mars-mips.nix {
+      jdk8 = pkgs.jdk8;
+    };
+
     mkHost = hostName:
       nixpkgs.lib.nixosSystem {
         inherit system;
-        specialArgs = {inherit inputs hostName;};
+        specialArgs = {inherit inputs hostName mars-mips;};
 
         modules = [
           ./hosts/${hostName}/nixos/configuration.nix
