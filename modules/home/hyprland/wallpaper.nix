@@ -9,32 +9,32 @@ in {
 
     wallpaper {
         monitor = DP-1
-        path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+        path = ~/.dotfiles/assets/wallpapers/main.jpg
         fit_mode = cover
     }
 
     wallpaper {
         monitor = HDMI-A-1
-        path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+        path = ~/.dotfiles/assets/wallpapers/main.jpg
         fit_mode = cover
     }
 
     wallpaper {
         monitor = DVI-D-1
-        path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+        path = ~/.dotfiles/assets/wallpapers/main.jpg
         fit_mode = cover
     }
 
     wallpaper {
       monitor = DP-2
-      path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+      path = ~/.dotfiles/assets/wallpapers/main.jpg
      fit_mode = cover
     }
 
 
     wallpaper {
       monitor =
-      path = ~/.config/dotfiles/assets/wallpapers/main.jpg
+      path = ~/.dotfiles/assets/wallpapers/main.jpg
       fit_mode = cover
     }
 
