@@ -4,35 +4,6 @@
 
     globals.mapleader = " ";
 
-    jdtls = {
-      enable = true;
-      settings = {
-        java = {
-          configuration = {
-            runtimes = [
-              {
-                name = "JavaSE-1.8";
-                path = "${pkgs.jdk8.home}";
-              }
-              {
-                name = "JavaSE-17";
-                path = "${pkgs.jdk17.home}";
-              }
-              {
-                name = "JavaSE-21";
-                path = "${pkgs.jdk21.home}";
-              }
-              {
-                name = "JavaSE-25";
-                path = "${pkgs.jdk25.home}";
-                default = true;
-              }
-            ];
-          };
-        };
-      };
-    };
-
     colorschemes.catppuccin = {
       enable = true;
       settings = {
@@ -99,6 +70,34 @@
           };
           clangd = {
             enable = true;
+          };
+          jdtls = {
+            enable = true;
+            settings = {
+              java = {
+                configuration = {
+                  runtimes = [
+                    {
+                      name = "JavaSE-1.8";
+                      path = "${pkgs.jdk8.home}";
+                    }
+                    {
+                      name = "JavaSE-17";
+                      path = "${pkgs.jdk17.home}";
+                    }
+                    {
+                      name = "JavaSE-21";
+                      path = "${pkgs.jdk21.home}";
+                    }
+                    {
+                      name = "JavaSE-25";
+                      path = "${pkgs.jdk25.home}";
+                      default = true;
+                    }
+                  ];
+                };
+              };
+            };
           };
         };
       };
