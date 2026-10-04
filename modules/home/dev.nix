@@ -87,9 +87,9 @@
     nethack
 
     # JAVA
-    jdk8
-    jdk17
-    jdk21
+    #jdk8
+    #jdk17
+    #jdk21
     jdk25
     maven
   ];
