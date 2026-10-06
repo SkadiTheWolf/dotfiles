@@ -30,7 +30,7 @@
     unstable = import unstable {
       inherit system;
       config.allowUnfree = true;
-    } 
+    };
 
     hades = pkgs.callPackage ./pkgs/hades.nix {
       jdk8 = pkgs.jdk8;
