@@ -8,7 +8,7 @@ stdenvNoCC.mkDerivation {
   pname = "hades";
   version = "1.0";
 
-  src = ../assets/Hades_Editor_und_Simulator.jar;
+  src = ../assets/Hades_Sim.jar;
 
   nativeBuildInputs = [makeWrapper];
 
@@ -16,11 +16,11 @@ stdenvNoCC.mkDerivation {
 
   installPhase = ''
         mkdir -p $out/share/hades
-        cp $src $out/share/hades/Hades_Editor_und_Simulator.jar
+        cp $src $out/share/hades/Hades_sim.jar
 
         mkdir -p $out/bin
         makeWrapper ${jdk8}/bin/java $out/bin/hades \
-          --add-flags "-jar $out/share/hades/Hades_Editor_und_Simulator.jar"
+          --add-flags "-jar $out/share/hades/Hades_sim.jar"
 
         mkdir -p $out/share/applications
 
